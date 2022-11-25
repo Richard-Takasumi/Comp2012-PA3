@@ -1,0 +1,9 @@
+BST Node for Street: HKUST
+------------
+ID: 1
+Hash: 2
+Address: Starbucks, Academic Concourse, HKUST, Clear Water Bay, Sai Kung, NT
+District: 4
+Street Name: HKUST
+Content: Please give students more discount
+------------

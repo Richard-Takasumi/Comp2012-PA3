@@ -1,0 +1,31 @@
+The District Mail Report for district 4
+For Mailman 0
+For Mailman 1
+For Mailman 2
+BST Node for Street: HKUST
+------------
+ID: 1
+Hash: 2
+Address: Starbucks, Academic Concourse, HKUST, Clear Water Bay, Sai Kung, NT
+District: 4
+Street Name: HKUST
+Content: Please give students more discount
+------------
+
+For Mailman 3
+For Mailman 4
+For Mailman 5
+For Mailman 6
+For Mailman 7
+For Mailman 8
+BST Node for Street: Sample
+------------
+ID: 2
+Hash: 8
+Address: Sample Address, Sai Kung Town
+District: 4
+Street Name: Sample
+Content: Hello there!
+------------
+
+For Mailman 9

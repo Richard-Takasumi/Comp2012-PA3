@@ -11,6 +11,25 @@ address(address), district(district), streetName(streetName), content(content), 
 // TODO: Calculate Hash Address
 void Mail::hashAddress()
 {
+    int content_sum = 0;
+
+    for (int i = 0; i < content.length(); i++) {
+        content_sum += content[i]*i;
+    } 
+    int address_sum = 0;
+
+    for (int j = 0; j < address.length(); j++) {
+        address_sum += address[j]*j;
+    } 
+    //
+    if (content_sum > INTMAX_MAX - address_sum) {
+        int temp_hold_int = INTMAX_MAX - address_sum;
+        this->addressHash =  ( temp_hold_int + content_sum );
+    }  else {
+        this->addressHash =  ( content_sum + address_sum ) % HASH_MODULO;
+    }
+
+        
 }
 
 // DO NOT TOUCH REST OF THE FUNCTIONS!

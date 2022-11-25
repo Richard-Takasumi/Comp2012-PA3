@@ -1,0 +1,90 @@
+BST Node for District: 4
+BST Node for District: 15
+BST Node for District: 5
+BST Node for Street: Sample
+------------
+ID: 6
+Hash: 9
+Address: New Sample Town
+District: 5
+Street Name: Sample
+Content: Hello there!
+------------
+
+BST Node for District: 16
+BST Node for Street: Sample
+------------
+ID: 8
+Hash: 8
+Address: Sample Building, Sample 2 Street, Kennedy Town
+District: 16
+Street Name: Sample
+Content: Hello there!
+------------
+
+BST Node for Street: Sample
+------------
+ID: 2
+Hash: 2
+Address: Sample Address 3, Sai Kung Town
+District: 15
+Street Name: Sample
+Content: Hello there!
+------------
+
+BST Node for Street: Queens Road Central
+------------
+ID: 5
+Hash: 4
+Address: HSBC Building, Central
+District: 15
+Street Name: Queens Road Central
+Content: Hello there!
+------------
+
+------------
+ID: 9
+Hash: 4
+Address: HSBC Building, Central
+District: 15
+Street Name: Queens Road Central
+Content: Hello there!
+------------
+
+BST Node for Street: Sample
+------------
+ID: 4
+Hash: 9
+Address: HSBC, Sai Kung Town
+District: 15
+Street Name: Sample
+Content: Hello there!
+------------
+
+------------
+ID: 7
+Hash: 9
+Address: HSBC, Sai Kung Town
+District: 15
+Street Name: Sample
+Content: Hello there!
+------------
+
+BST Node for Street: HKUST
+------------
+ID: 1
+Hash: 2
+Address: Starbucks, Academic Concourse, HKUST, Clear Water Bay, Sai Kung, NT
+District: 4
+Street Name: HKUST
+Content: Please give students more discount
+------------
+
+------------
+ID: 3
+Hash: 2
+Address: Bookstore, Academic Concourse, HKUST, Clear Water Bay, Sai Kung, NT
+District: 4
+Street Name: HKUST
+Content: Please give students more discount
+------------
