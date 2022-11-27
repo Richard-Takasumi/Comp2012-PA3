@@ -14,18 +14,22 @@ void Mail::hashAddress()
     int content_sum = 0;
 
     for (int i = 0; i < content.length(); i++) {
-        content_sum += content[i]*i;
+        content_sum += content[i]*(i+1);
     } 
     int address_sum = 0;
 
     for (int j = 0; j < address.length(); j++) {
-        address_sum += address[j]*j;
+        address_sum += address[j]*(j+1);
     } 
-    //
+    // if overload, do
+    // [ MAX - (content_sum + address_sum) ] * -1 
     if (content_sum > INTMAX_MAX - address_sum) {
-        int temp_hold_int = INTMAX_MAX - address_sum;
-        this->addressHash =  ( temp_hold_int + content_sum );
-    }  else {
+        int temp_hold_int = INTMAX_MAX - address_sum - content_sum;
+        // Maybe don't need Hash_Modulo Here...
+        this->addressHash =  ( temp_hold_int * (-1) ) % HASH_MODULO;
+    }  
+    else {
+        // Maybe don't need Hash_Modulo Here...
         this->addressHash =  ( content_sum + address_sum ) % HASH_MODULO;
     }
 
